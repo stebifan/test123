@@ -4,3 +4,5 @@ addons:
   apt:
     packages:
     - isc-dhcp-server
+
+install: git clone https://github.com/Freifunk-Troisdorf/static-dhcp
