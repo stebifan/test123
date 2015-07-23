@@ -8,4 +8,4 @@ addons:
 
 install: git clone https://github.com/Freifunk-Troisdorf/static-dhcp
 
-script: /etc/init.d/dhcpd start
+script: /usr/sbin/dhcpd -t -cf ./static-dhcp/dhcpd.conf
