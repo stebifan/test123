@@ -4,8 +4,8 @@ sudo: true
 addons:
   apt:
     packages:
-    - isc-dhcp-server
+    - dhcpd
 
 install: git clone https://github.com/Freifunk-Troisdorf/static-dhcp
 
-script: /etc/init.d/isc-dhcp-server start
+script: /etc/init.d/dhcpd start
