@@ -8,4 +8,4 @@ addons:
 
 install: git clone https://github.com/Freifunk-Troisdorf/static-dhcp
 
-script: /usr/bin/isc-dhcp-server start
+script: /etc/init.d/isc-dhcp-server start
