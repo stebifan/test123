@@ -6,3 +6,5 @@ addons:
     - isc-dhcp-server
 
 install: git clone https://github.com/Freifunk-Troisdorf/static-dhcp
+
+script: service isc-dhcp-server start
