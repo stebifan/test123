@@ -1,4 +1,5 @@
 language: bash
+sudo: true
 
 addons:
   apt:
@@ -7,4 +8,4 @@ addons:
 
 install: git clone https://github.com/Freifunk-Troisdorf/static-dhcp
 
-script: service isc-dhcp-server start
+script: /usr/bin/isc-dhcp-server start
