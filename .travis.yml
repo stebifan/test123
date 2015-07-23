@@ -1,5 +1,6 @@
 language: bash
 
-before_install:
-	- sudo apt-get update -qq
-	- sudo apt-get install -qq isc-dhcp-server
+addons:
+  apt:
+    packages:
+    - isc-dhcp-server
